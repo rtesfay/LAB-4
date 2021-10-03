@@ -7,7 +7,7 @@ public class CoffeeBag {
     private double taxRate;
 
     //Methods
-    public CoffeeSale(double unitWeight, int numberOfBags, double totalPrice, double totalPriceWithTax, double taxRate) {
+    public CoffeeBag(double unitWeight, int numberOfBags, double totalPrice, double totalPriceWithTax, double taxRate) {
         this.unitWeight = unitWeight;
         this.numberOfBags = numberOfBags;
         this.totalPrice = totalPrice;

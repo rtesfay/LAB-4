@@ -1,11 +1,10 @@
 public class WeightConverter {
     //Data members
     private double weight;
-    private static final double gravity;
+    private static final double gravity = 0;
     //Constructor
     public WeightConverter(double weight, double gravity){
         this.weight=weight;
-        this.gravity=gravity;
     }
     //Methods
     public double getWeight(){
@@ -16,9 +15,6 @@ public class WeightConverter {
     }
     public void setWeight(double weight){
         this.weight=weight;
-    }
-    public void setGravity(double gravity){
-        this.gravity= gravity;
     }
     public String toString(){
         return this.weight+" "+this.gravity;
